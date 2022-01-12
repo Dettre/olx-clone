@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import { SearchArea, PageArea } from './styled';
-import useApi from '../../helpers/OlxApi';
+import useApi from '../../helpers/OlxAPI';
 
 import { PageContainer } from '../../components/MainComponents';
 import AdItem from '../../components/partials/AdItem'

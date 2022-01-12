@@ -1,6 +1,6 @@
 import React , {useState} from 'react'
 import { PageArea } from './styled';
-import useApi from '../../helpers/OlxApi'
+import useApi from '../../helpers/OlxAPI'
 import { doLogin} from '../../helpers/AuthHandler'
 
 import { PageContainer, PageTitle, ErrorMessage} from '../../components/MainComponents';
